@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurante</title>
+    <link rel="stylesheet" href="restaurante.css"
 </head>
 <body>
     <main>
@@ -17,14 +18,18 @@
             <li>Café con leche-------2€</li>
         </ul>
         </section>
+
+        <!-- Creamos una lista desplegable para las opciones del menú-->
     <select name="pedido">
-    <option class="huevos_fritos" value="4">Huevos fritos</option>
-    <option class="salchichas" value="5">Salchichas</option>
-    <option class="zumo_de_naranja" value="3">Zumo de naranja</option>
-    <option class="Cafe_con_leche" value="4">Huevos fritos</option>
+    <option id="huevos_fritos" value="4">Huevos fritos</option>
+    <option id="salchichas" value="5">Salchichas</option>
+    <option id="zumo_de_naranja" value="3">Zumo de naranja</option>
+    <option id="Cafe_con_leche" value="4">Huevos fritos</option>
     </select>
+
+    <!--Creamos un botón para ordenar-->
     <button type="submit" id="Ordene">Elegir</button>   
-    <h4 class="cliente">El total a pagar es:</h4>   
+    <h4 id="cliente">El total a pagar es:</h4>   
         </section>
     </main>
     <script src="restaurante.js"></script>
