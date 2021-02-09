@@ -6,7 +6,7 @@ let huevos_fritos = document.getElementById('huevos fritos'),
     btn_elegir = document.getElementById('Ordene')
 
 
-// Aquí ya me he liado con las variables y los callback. No consigo que funcionen los precios!!!
+// Aquí ya me he liado bastante con las variables, insputs, callback y nombres (Ya no se ni como me llamo yo!!!!). No consigo que funcionen los precios!!!
 btn_elegir.addEventListener('click', () => {
     let total = pedido.value
     carta.innerHTML = total
